@@ -1,7 +1,7 @@
 [
   { "nome": "Arroz Agulha 1kg", "mercado": "Continente", "preco": 1.05 },
   { "nome": "Arroz Agulha 1kg", "mercado": "Pingo Doce", "preco": 0.99 },
-  { "nome": "Arroz Agulha 1kg", "mercado": "Minipreço", "preco": 0.95 },
+  { "nome": "Arroz Agulha 1kg", "mercado": "Minipreço", "preco": 0.90 },
 
   { "nome": "Feijão Carioca 1kg", "mercado": "Continente", "preco": 1.42 },
   { "nome": "Feijão Carioca 1kg", "mercado": "Pingo Doce", "preco": 1.35 },
