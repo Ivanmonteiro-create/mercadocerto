@@ -8,7 +8,7 @@
       "nome": "Arroz Agulha 1kg",
       "precos": [
         { "mercado": "Pingo Doce", "preco": 0.99 },
-        { "mercado": "Continente", "preco": 1.05 },
+        { "mercado": "Continente", "preco": 1.00 },
         { "mercado": "Minipreço", "preco": 0.90 }
       ]
     },
