@@ -1,25 +1,97 @@
-[
-  { "nome": "Arroz Agulha 1kg", "mercado": "Continente", "preco": 1.05 },
-  { "nome": "Arroz Agulha 1kg", "mercado": "Pingo Doce", "preco": 0.99 },
-  { "nome": "Arroz Agulha 1kg", "mercado": "Minipreço", "preco": 0.90 },
-
-  { "nome": "Feijão Carioca 1kg", "mercado": "Continente", "preco": 1.42 },
-  { "nome": "Feijão Carioca 1kg", "mercado": "Pingo Doce", "preco": 1.35 },
-  { "nome": "Feijão Carioca 1kg", "mercado": "Minipreço", "preco": 1.29 },
-
-  { "nome": "Açúcar Branco 1kg", "mercado": "Continente", "preco": 1.12 },
-  { "nome": "Açúcar Branco 1kg", "mercado": "Pingo Doce", "preco": 1.15 },
-  { "nome": "Açúcar Branco 1kg", "mercado": "Minipreço", "preco": 1.19 },
-
-  { "nome": "Leite Meio Gordo 1L", "mercado": "Continente", "preco": 0.89 },
-  { "nome": "Leite Meio Gordo 1L", "mercado": "Pingo Doce", "preco": 0.92 },
-  { "nome": "Leite Meio Gordo 1L", "mercado": "Minipreço", "preco": 0.95 },
-
-  { "nome": "Óleo de Girassol 1L", "mercado": "Continente", "preco": 1.79 },
-  { "nome": "Óleo de Girassol 1L", "mercado": "Pingo Doce", "preco": 1.75 },
-  { "nome": "Óleo de Girassol 1L", "mercado": "Minipreço", "preco": 1.83 },
-
-  { "nome": "Massa Esparguete 500g", "mercado": "Continente", "preco": 0.69 },
-  { "nome": "Massa Esparguete 500g", "mercado": "Pingo Doce", "preco": 0.72 },
-  { "nome": "Massa Esparguete 500g", "mercado": "Minipreço", "preco": 0.70 }
-]
+{
+  "atualizado_em": "2025-10-30T18:00:00Z",
+  "moeda": "EUR",
+  "mercados": ["Pingo Doce", "Continente", "Minipreço"],
+  "produtos": [
+    {
+      "categoria": "Mercearia",
+      "nome": "Arroz Agulha 1kg",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 0.99 },
+        { "mercado": "Continente", "preco": 1.05 },
+        { "mercado": "Minipreço", "preco": 0.90 }
+      ]
+    },
+    {
+      "categoria": "Mercearia",
+      "nome": "Massa Esparguete 500g",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 0.72 },
+        { "mercado": "Continente", "preco": 0.69 },
+        { "mercado": "Minipreço", "preco": 0.70 }
+      ]
+    },
+    {
+      "categoria": "Laticínios",
+      "nome": "Leite Meio Gordo 1L",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 0.89 },
+        { "mercado": "Continente", "preco": 0.89 },
+        { "mercado": "Minipreço", "preco": 0.92 }
+      ]
+    },
+    {
+      "categoria": "Padaria",
+      "nome": "Pão de Forma 500g",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 1.35 },
+        { "mercado": "Continente", "preco": 1.29 },
+        { "mercado": "Minipreço", "preco": 1.40 }
+      ]
+    },
+    {
+      "categoria": "Bebidas",
+      "nome": "Água 1.5L",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 0.19 },
+        { "mercado": "Continente", "preco": 0.22 },
+        { "mercado": "Minipreço", "preco": 0.20 }
+      ]
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Papel Higiénico 12 rolos",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 4.29 },
+        { "mercado": "Continente", "preco": 4.10 },
+        { "mercado": "Minipreço", "preco": 4.35 }
+      ]
+    },
+    {
+      "categoria": "Limpeza",
+      "nome": "Detergente Loiça 750ml",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 1.45 },
+        { "mercado": "Continente", "preco": 1.39 },
+        { "mercado": "Minipreço", "preco": 1.49 }
+      ]
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Shampoo 400ml",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 3.99 },
+        { "mercado": "Continente", "preco": 3.79 },
+        { "mercado": "Minipreço", "preco": 3.89 }
+      ]
+    },
+    {
+      "categoria": "Congelados",
+      "nome": "Batatas Fritas Congeladas 1kg",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 2.49 },
+        { "mercado": "Continente", "preco": 2.39 },
+        { "mercado": "Minipreço", "preco": 2.55 }
+      ]
+    },
+    {
+      "categoria": "Hortifrúti",
+      "nome": "Banana 1kg",
+      "precos": [
+        { "mercado": "Pingo Doce", "preco": 1.49 },
+        { "mercado": "Continente", "preco": 1.45 },
+        { "mercado": "Minipreço", "preco": 1.59 }
+      ]
+    }
+  ]
+}
